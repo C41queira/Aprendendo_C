@@ -3,7 +3,7 @@
 
 int main(){
 
-  puts("Exercicios circunferencia"); 
+  /*puts("Exercicios circunferencia"); 
 
   int raio = 0;
   const float pi = 3.1415; 
@@ -13,7 +13,7 @@ int main(){
 
   double area = pi*pow(raio, 2);
 
-  printf("O valor da area da circunferencia = %.2f", area);
+  printf("O valor da area da circunferencia = %.2f", area);*/
 
   
   puts("\n\nExercicios IMC");
@@ -21,10 +21,10 @@ int main(){
   float altura = 0.0; 
   float peso = 0.0; 
 
-  puts("Coloque a sua Altura: ");
+  puts("Coloque a sua Altura em metros: ");
   scanf("%f", &altura); 
   
-  puts("Coloque o seu peso: ");
+  puts("Coloque o seu peso em Kg: ");
   scanf("%f", &peso);
   
   float imc = peso/pow(altura, 2); 

@@ -29,7 +29,7 @@ int main(){
     printf("Valor da gravidade: %d\n", gravidade);
 
     //Aceita apenas texto 
-    pust("Essa aula não acaba");
+    puts("Essa aula não acaba");
 
     //Aceita textos e veriaveis
     printf("Aceito texto e varia"); 
